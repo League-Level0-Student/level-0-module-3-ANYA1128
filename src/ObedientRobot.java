@@ -5,6 +5,8 @@ import org.jointheleague.graphical.robot.Robot;
 public class ObedientRobot {
 	static Robot rob = new Robot();
 	public static void main(String[] args) {
+		
+		String color
 		String shape = JOptionPane.showInputDialog("Which shape do you want to draw? A triangle, square, or circle?");
 	    if (shape.equalsIgnoreCase("square")) {
 	    	drawsquare();
